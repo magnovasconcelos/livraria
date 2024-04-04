@@ -1,0 +1,258 @@
+.conteiner-principal
+
+/*  DEFINIÇÕES DO CONTEINER PRINCIPAL */
+    {
+    position: relative;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #ddd9ce;
+}
+
+.conteiner-segundario
+
+/* DISTANCIA DA BORDA INFERIOR DO PADDING */
+    {
+
+    padding-bottom: 2rem;
+
+}
+
+/*DEFINIÇÕES DO FORM*/
+
+.main-form {
+    padding-top: 150px;
+
+}
+
+.navbar
+
+/* DEFINIÇÕES DA BARRA DE NAVEGAÇÃO */
+    {
+    background-color: rgba(31, 125, 53, 0.6);
+    transition: background-color 0.3s;
+}
+
+.navbar-solido
+
+/* COR DA BARRA DE NAVEGAÇÃO QUANDO ESTIVER FIXA */
+    {
+    background-color: #1f7d35;
+}
+
+.rodape
+
+/* COR DO RODAPÉ */
+    {
+    background-color: #1F7D35;
+}
+
+.titulos
+
+/* COR E FONTE DOS TITULOS */
+    {
+    color: #c6bfee;
+    font-family: 'Arial Narrow';
+
+}
+
+.textos
+
+/* COR E FONTE DOS TEXTOS */
+    {
+    color: #dad8e9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botoes
+
+/* COR E DOS BOTÕES */
+    {
+    border-radius: 23px 6px !important;
+    background-color: #1f7d35;
+}
+
+.table th {
+    background-color: #1f7d35;
+}
+
+.zoom-conteiner
+
+/* ZOOM NA IMAGEM DO TOPO DAS PAGINAS E DOS CARDS NO FINAL DA PAGINA INDEX */
+    {
+    overflow: hidden;
+}
+
+.zoom-conteiner img
+
+/* VELOCIDADE DO ZOOM */
+    {
+    transition: transform 4s ease;
+}
+
+.zoom-conteiner:hover img
+
+/* ESCALA DO ZOOM */
+    {
+    transform: scale(1.2);
+}
+
+.img-com-texto
+
+/* DEFINIÇÕES PARA CENTRALIZAR O TEXTO DENTRO DA IMAGEM DO CARDS NO INDEX*/
+    {
+    position: relative;
+    max-width: 100%;
+}
+
+.img-com-texto img
+
+/* DEFINIÇÕES PARA CENTRALIZAR O TEXTO DENTRO DA IMAGEM DO CARDS NO INDEX*/
+    {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.texto-sobre-img
+
+/* DEFINIÇÕES PARA CENTRALIZAR O TEXTO DENTRO DA IMAGEM DO CARDS NO INDEX*/
+    {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #dad8e9;
+
+}
+
+.texto-centro-conteiner
+
+/* DEFINIÇÕES PARA CENTRALIZAR O TEXTOS E INPUTS NO CENTRO DO CONTEINER*/
+    {
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+}
+
+.conteiner-img-opacidade
+
+/* DEFINIÇÕES PARA DIMINUIR A OPACIDADE DO BACKGROUND*/
+    {
+    position: relative;
+
+}
+
+.img-opacidade
+
+/* DEFINIÇÕES PARA DIMINUIR A OPACIDADE DO BACKGROUND*/
+    {
+    object-fit: cover;
+}
+
+.opacidade-img
+
+/* DEFINIÇÕES PARA DIMINUIR A OPACIDADE DO BACKGROUND*/
+    {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(169, 91, 149, 0.4);
+}
+
+.largura-input
+
+/* DEFINIÇÕES DA LARGURA DO INPUT TYPE TEXT */
+    {
+    width: 600px;
+}
+
+/* Adiciona estilos para a seção de benefícios para mães solos */
+.destaques-index {
+    background-color: #0b0c23;
+    /* Cor de fundo da seção */
+    padding: 50px 0;
+    /* Adiciona espaço interno */
+    border: 2px solid #1f7d35;
+    /* Adiciona borda destacada */
+    border-radius: 15px;
+    /* Borda com borda arredondada */
+}
+
+/* Estiliza o título da seção */
+.destaques-index h1 {
+    color: #c6bfee;
+    /* Cor do título */
+    font-family: 'Arial Narrow';
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Estiliza as colunas dentro da seção */
+.destaques-index .col-sm-4 {
+    text-align: center;
+    padding: 20px;
+    /* Adiciona espaço interno nas colunas */
+}
+
+/* Estiliza os títulos dos benefícios */
+.destaques-index h4 {
+    color: #1f7d35;
+    /* Cor dos títulos */
+    margin-bottom: 10px;
+}
+
+/* Estiliza os textos dos benefícios */
+.destaques-index p {
+    color: #dad8e9;
+    /* Cor dos textos */
+    font-size: 16px;
+}
+
+/* Adiciona estilo para a classe slideanim nas colunas */
+.destaques-index .col-sm-4.slideanim {
+    visibility: hidden;
+}
+
+/* Adiciona animação de slide para as colunas */
+.destaques-index .col-sm-4.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+/* Define as keyframes para a animação de slide */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}

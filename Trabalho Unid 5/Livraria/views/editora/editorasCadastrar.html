@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="icon" href="./assets/img/book-2-fill.svg" type="image/svg" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="../../assets/css/stylecss.css" />
+   <title>:: Entre Páginas ::</title>
+</head>
+
+<body>
+   <!-- ARQUIVO JAVASCRIPT -->
+   <script src="../../assets/js/javascript.js"></script>
+   <!-- NAVEGAÇÃO -->
+   <header>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-solido">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+               <img src="/assets/img/logo/logo-sem-fundo.png" class="bordas-thumb-logo" alt="" width="60" height="60" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navVagas"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navVagas">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                  <li class="nav-item"><a class="nav-link active" href="../index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="../views/autores/index.html">Autores</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link active" href="../Livros/index.html">Livros</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="index.html">Editora</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="../contato/index.html">Contato</a></li>
+               </ul>
+               <div class="d-flex">
+                  <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="text-dark me-3"><i class="bi bi-instagram"></i></a>
+                  <a href="#" class="text-dark me-3"><i class="bi bi-linkedin"></i></a>
+                  <a href="#" class="text-dark"><i class="bi bi-twitter"></i></a>
+               </div>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <section class="conteiner-principal">
+      <section class="conteiner-segundario">
+         <main class="main-form">
+            <section class="section container titulos">
+               <form method="post" action="#" class="form-control">
+                  <fieldset>
+                     <legend class="text-center h3">Cadastrar Editora</legend>
+                     <div>
+                        <label for="nome">Nome</label> <input type="text" class="form-control"
+                           id="nome" name="nome">
+                     </div>
+                     <div>
+                        <label for="telefone">Telefone</label> <input type="tel" class="form-control" id="telefone"
+                           name="telefone">
+                     </div>
+                     <div>
+                        <label for="endereco">Endereço</label> <input type="text" class="form-control" id="endereco"
+                           name="endereco">
+                     </div>
+                     <div>
+                        <label for="email">E-mail</label> <input type="text" class="form-control" id="email"
+                           name="email">
+                     </div>
+                     <div>
+                        <button type="submit" class="btn btn-dark mt-2 botoes">Cadastrar</button>
+                        <a href="../../views/editora/index.html" class="btn btn-dark mt-2 botoes">Cancelar</a>
+                     </div>
+
+                  </fieldset>
+               </form>
+            </section>
+         </main>
+      </section>
+      <!--FOOTER-->
+      <footer class="container-fluid rodape mt-4">
+         <div class="footer">
+            <section class="row">
+               <section class="col about-company text-center mt-3">
+                  <p>
+                     <span class="bi bi-facebook"><a href="#" class="link-dark"
+                           style="text-decoration: none"></a></span> <span class="bi bi-instagram"><a href="#"
+                           class="link-dark" style="text-decoration: none"></a></span> <span class="bi bi-linkedin"><a
+                           href="#" class="link-dark" style="text-decoration: none"></a></span> <span
+                        class="bi bi-twitter"><a href="#" class="link-dark" style="text-decoration: none"></a></span>
+                  </p>
+               </section>
+            </section>
+            <section class="row">
+               <section class="col copyright text-center">
+                  <p class="">
+                     <small class="text-dark-50">Entre Páginas | © 2024. Todos
+                        os Direitos Reservados.</small>
+                  </p>
+               </section>
+            </section>
+         </div>
+      </footer>
+   </section>
+</body>
+
+</html>
